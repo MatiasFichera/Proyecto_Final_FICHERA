@@ -1,0 +1,152 @@
+.grid-container1 {
+    display: grid;
+    grid-template-areas: 
+    "titulo1 titulo1 titulo1 titulo1"
+    "nav nav nav nav"
+    "imagen1a imangen1a texto1 texto1"
+    "textoa2 textoa2 imagen2a imagen2a"
+    "imagena3 imagena3 imagena3 imagena3"
+    "footera footera footera footera"
+    ;
+    
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 200px 100px auto auto auto 200px;
+
+    grid-column-gap: 10px;
+    grid-row-gap: 15px ;  
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-areas: 
+    "titulo1 titulo1 titulo1 titulo1"
+    "nav nav nav nav"
+    "imagenb1 imagenb1 textob1 textob1"
+    "textob2 textob2 imagenb2 imagenb2"
+    "footera footera footera footera"
+    ;
+    
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 200px 100px auto auto 200px;
+
+    grid-column-gap: 10px;
+    grid-row-gap: 15px ;  
+}
+
+nav { 
+    grid-area: nav;
+}
+
+#imagen1a {
+    grid-area: imagen1a;
+}
+
+#texto1 {
+    grid-area: texto1;
+}
+
+#imagen2a {
+    grid-area: imagen2a;
+}
+
+#textoa2 {
+    grid-area: textoa2;
+}
+
+#imagena3 {
+    grid-area: imagena3;
+}
+
+
+
+
+
+#imagenb1 {
+grid-area: imagenb1;
+width: 350px;
+}
+
+#textob1 {
+    grid-area: textob1;
+}
+
+#imagenb2 {
+    grid-area: imagenb2;
+    width: 350px
+}
+
+#textob2 {
+    grid-area: textob2;
+}
+
+
+h1 {
+    grid-area: titulo1;
+    text-align: center;
+    border: 3px solid;
+    border-color:darkblue;
+    background-color:cornflowerblue;
+   
+    }
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    li { 
+        height: 20%;
+        width: 20%;
+        text-align: center;
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        background-color: darksalmon;
+        box-shadow:none;
+        }
+
+    
+
+    .formato {
+    height: 50%;
+    width: 20%;
+    text-align: center;
+    border: 1px solid burlywood
+    }
+
+    .imagen1 {
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+
+    .textos_intro {
+        text-align:center;
+        border:2px solid;
+        border-color: blue;
+        background-color: darksalmon;
+    }
+
+    body {
+        background-color:lightskyblue;
+        }
+
+    .footer {
+        border: 3px;
+        border-style: solid;
+        border-color: black;
+        background-color: gainsboro;
+        text-align: center;
+        grid-area: footera;
+            }
+
+        .form {
+            border: 4px;
+            border-style: solid;
+            border-color: black;
+            text-align: center;
+            }
+        
