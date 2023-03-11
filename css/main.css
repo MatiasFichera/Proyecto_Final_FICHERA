@@ -1,0 +1,124 @@
+body {
+  background-color: #5BC0F8;
+}
+body h1 {
+  grid-area: titulo1;
+  text-align: center;
+  border: 3px solid;
+  border-color: black;
+  background-color: #0081C9;
+  margin-top: 20px;
+  animation-name: animacion_titulos;
+  animation-fill-mode: 1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+@keyframes animacion_titulos {
+  0% {
+    scale: 1;
+  }
+  10% {
+    scale: 0.97;
+  }
+  20% {
+    scale: 0.95;
+  }
+  30% {
+    scale: 0.93;
+  }
+  40% {
+    scale: 0.9;
+  }
+  50% {
+    scale: 0.9;
+  }
+  60% {
+    scale: 0.9;
+  }
+  70% {
+    scale: 0.93;
+  }
+  80% {
+    scale: 0.95;
+  }
+  90% {
+    scale: 0.97;
+  }
+  100% {
+    scale: 1;
+  }
+}
+body ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body ul li {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color: #FFC93C;
+  box-shadow: none;
+  text-align: center;
+}
+body .footer {
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  background-color: gainsboro;
+  text-align: center;
+  grid-area: footera;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+body .formato {
+  height: 50%;
+  width: 20%;
+  text-align: center;
+  border: 1px solid burlywood;
+}
+body .imagenes_general {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .textos_intro {
+  text-align: center;
+  border: 2px solid;
+  border-color: black;
+  background-color: #FFE15D;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body div .textos_intro:hover {
+  transform: scale(1.02);
+  background-color: #FFB100;
+  transition: scale 2s, background-color 3s;
+}
+body form .form1 {
+  border: 4px;
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 10px;
+}
+body form .titulo_form {
+  text-align: center;
+}
+body form .items_form {
+  margin-top: 10px;
+}
+body form .botones {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
