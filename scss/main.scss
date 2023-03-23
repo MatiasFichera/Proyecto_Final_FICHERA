@@ -11,8 +11,9 @@
 
 body {
     background-color:#5BC0F8;
+        
 
-    h1 {
+    .titulos1 {
         grid-area: titulo1;
         @include alineacion_texto;
         border: 3px solid;
@@ -41,33 +42,39 @@ body {
             100% {scale: 1;}
         }
     
-        ul {
+        .estilo_ul {
         list-style-type: none;
         @include display;
         margin-top: 20px;
         margin-bottom: 20px;
-            
-            li { 
-            border: 2px;
-            border-style: solid;
-            border-color: black;
-            background-color: #FFC93C;
-            box-shadow:none;
-            @include alineacion_texto;
+        padding-left: 0;
                 }
+            
+        .estilo_li { 
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        background-color: #FFC93C;
+        box-shadow:none;
+        @include alineacion_texto;
             }
 
         .footer {
         border: 3px;
         border-style: solid;
         border-color: black;
-        background-color: gainsboro;
+        background-color:#0081C9;
         @include alineacion_texto;
         grid-area: footera;
         height: 150px;
         margin-top: 10px;
         margin-bottom: 20px;
+        color:black
                 }
+
+        .color_mail {
+            color:black
+        }
 
         .formato {
         height: 50%;
